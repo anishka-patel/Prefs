@@ -18,7 +18,7 @@ set colorcolumn=80
 set nowrap
 set number relativenumber
 set splitbelow splitright
-set shiftwidth=2 tabstop=2 softtabstop=2
+set shiftwidth=4 tabstop=4 softtabstop=4
 set expandtab autoindent
 set showmatch showmode showcmd
 set ignorecase smartcase
