@@ -1,4 +1,5 @@
 [ActivityManager][Global Shortcuts]
+switch-to-activity-=
 switch-to-activity-38c482d2-06cb-4835-addc-119b878adcf4=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
@@ -12,7 +13,7 @@ Activate Next Tab=Ctrl+PgDown; Ctrl+]
 Activate Previous Tab=Ctrl+PgUp; Ctrl+[
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
-Back=Alt+Left; Back
+Back=Back; Alt+Left
 BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
@@ -39,7 +40,7 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Forward; Alt+Right
+Forward=Alt+Right; Forward
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
@@ -64,7 +65,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=Refresh; F5
+Reload=F5; Refresh
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -92,16 +93,16 @@ ZoomIn=Ctrl+=; Ctrl++
 ZoomOut=Ctrl+-
 
 [code-oss.desktop][Global Shortcuts]
-_launch=Meta+Shift+T
+_launch=Ctrl+Alt+E
 new-empty-window=
 
 [firefox.desktop][Global Shortcuts]
-_launch=Meta+Shift+I
+_launch=Ctrl+Alt+Shift+I
 new-private-window=
 new-window=
 
 [google-chrome.desktop][Global Shortcuts]
-_launch=Meta+I
+_launch=Ctrl+Alt+I
 new-private-window=
 new-window=
 
@@ -118,7 +119,7 @@ Show System Activity=Ctrl+Esc
 display=Display; Meta+P
 
 [khotkeys][Global Shortcuts]
-{5ac2014a-8314-49d5-a6eb-a4eb311ce446}=Ctrl+Alt+T; Meta+Shift+Return
+{5ac2014a-8314-49d5-a6eb-a4eb311ce446}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=
 
 [kmix][Global Shortcuts]
@@ -131,7 +132,7 @@ mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Screensaver; Meta+L; Ctrl+Alt+L
+Lock Session=Screensaver; Ctrl+Alt+L
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 Reboot Without Confirmation=
@@ -139,12 +140,39 @@ Reboot Without Confirmation=
 [kwin][Global Shortcuts]
 Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=
-Expose=Meta+X; Ctrl+F9
-ExposeAll=Meta+Shift+X; Ctrl+F10; Launch (C)
-ExposeClass=Ctrl+F7; Meta+A
+Expose=Ctrl+F9; Ctrl+Alt+D
+ExposeAll=Launch (C); Ctrl+Alt+Shift+D; Ctrl+F10
+ExposeClass=Ctrl+F7
 Increase Opacity=
 Invert Screen Colors=
 Kill Window=Ctrl+Alt+Esc
+Krohnkite: Cycle Layout=
+Krohnkite: Decrease=Meta+D
+Krohnkite: Down/Next=Meta+J
+Krohnkite: Float=Meta+F
+Krohnkite: Float All=Meta+Shift+F
+Krohnkite: Floating Layout=
+Krohnkite: Grow Height=Meta+Ctrl+J
+Krohnkite: Grow Width=Meta+Ctrl+L
+Krohnkite: Increase=Meta+I
+Krohnkite: Left=Meta+H
+Krohnkite: Monocle Layout=Meta+M
+Krohnkite: Move Down/Next=Meta+Shift+J
+Krohnkite: Move Left=Meta+Shift+H
+Krohnkite: Move Right=Meta+Shift+L
+Krohnkite: Move Up/Prev=Meta+Shift+K
+Krohnkite: Next Layout=Meta+\\
+Krohnkite: Previous Layout=Meta+|
+Krohnkite: Quarter Layout=
+Krohnkite: Right=Meta+L
+Krohnkite: Set master=Meta+Return
+Krohnkite: Shrink Height=Meta+Ctrl+K
+Krohnkite: Shrink Width=Meta+Ctrl+H
+Krohnkite: Spread Layout=
+Krohnkite: Stair Layout=
+Krohnkite: Three Column Layout=
+Krohnkite: Tile Layout=Meta+T
+Krohnkite: Up/Prev=Meta+K
 MoveMouseToCenter=Meta+F6
 MoveMouseToFocus=Meta+F5
 MoveZoomDown=
@@ -153,7 +181,7 @@ MoveZoomRight=
 MoveZoomUp=
 Setup Window Shortcut=
 Show Desktop=
-ShowDesktopGrid=Meta+D; Ctrl+F8
+ShowDesktopGrid=Ctrl+Alt+G; Ctrl+F8
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=Meta+Ctrl+Down
 Switch One Desktop Up=Meta+Ctrl+Up
@@ -197,6 +225,7 @@ Switch to Screen 6=
 Switch to Screen 7=
 Toggle Night Color=
 Toggle Window Raise/Lower=
+ToggleCurrentThumbnail=Meta+Ctrl+T
 Walk Through Desktop List=
 Walk Through Desktop List (Reverse)=
 Walk Through Desktops=
@@ -211,17 +240,17 @@ Walk Through Windows of Current Application Alternative=
 Walk Through Windows of Current Application Alternative (Reverse)=
 Window Above Other Windows=
 Window Below Other Windows=
-Window Close=Meta+C; Alt+F4
+Window Close=Alt+F4; Ctrl+Alt+C
 Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
-Window Maximize=Meta+W
+Window Maximize=Meta+PgUp
 Window Maximize Horizontal=
 Window Maximize Vertical=
-Window Minimize=Ctrl+Shift+W
+Window Minimize=Meta+PgDown
 Window Move=
-Window No Border=Meta+B
+Window No Border=Ctrl+Alt+B
 Window On All Desktops=
 Window One Desktop Down=Meta+Ctrl+Shift+Down
 Window One Desktop Up=Meta+Ctrl+Shift+Up
@@ -233,13 +262,13 @@ Window Pack Left=
 Window Pack Right=
 Window Pack Up=
 Window Quick Tile Bottom=Meta+Down
-Window Quick Tile Bottom Left=Meta+Shift+Left
-Window Quick Tile Bottom Right=Meta+Shift+Down
+Window Quick Tile Bottom Left=
+Window Quick Tile Bottom Right=
 Window Quick Tile Left=Meta+Left
 Window Quick Tile Right=Meta+Right
 Window Quick Tile Top=Meta+Up
 Window Quick Tile Top Left=Meta+Shift+Up
-Window Quick Tile Top Right=Meta+Shift+Right
+Window Quick Tile Top Right=
 Window Raise=
 Window Resize=
 Window Shade=
@@ -295,11 +324,11 @@ stopmedia=Media Stop
 _launch=Meta+E
 
 [org.kde.kate.desktop][Global Shortcuts]
-_launch=Meta+T
+_launch=Ctrl+Alt+Shift+E
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Search; Alt+Space; Alt+F2
+_launch=Search; Alt+F2; Alt+Space
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=Meta+.
@@ -364,4 +393,4 @@ powerdevilprofilesconfig=
 screenlocker=
 
 [yakuake][Global Shortcuts]
-toggle-window-state=F12; Meta+Return
+toggle-window-state=F12; Ctrl+Alt+Shift+T
