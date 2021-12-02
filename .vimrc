@@ -13,7 +13,7 @@ let g:netrw_winsize=75
 
 set path+=**
 set nocompatible
-set cursorline cursorcolumn
+set cursorline 
 set colorcolumn=80
 set nowrap
 set number relativenumber
